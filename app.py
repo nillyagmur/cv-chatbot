@@ -42,7 +42,7 @@ FAISS_INDEX_PATH = "./faiss_index.pkl" #oluşturulacak veri tabanının dosya ad
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 # OpenAI API Key (sabit olarak ayarlandı)
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 #BÖLÜM 4
 # ===============================
 # Fonksiyonlar
